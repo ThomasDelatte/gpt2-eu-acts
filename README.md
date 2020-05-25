@@ -1,5 +1,7 @@
 # [GPT2-generated EU legislation](https://thomasdelatte.com/2020/05/eu-text-generator/)
 
+This repo contains an implementation of OpenAI's GPT-2 model, finetuned to generate texts like EU legislative acts.
+
 You can generate text yourself [here](https://thomasdelatte.com/gpt2).
 
 You can also run the code in a [Colab notebook](https://colab.research.google.com/drive/1QP-pInYzeYAP2IHJX1JhaPqY062Jd122?usp=sharing).
