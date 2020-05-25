@@ -1,23 +1,18 @@
-# [GPT2-generated EU legislation](https://thomasdelatte.com/gpt2)
+# [GPT2-generated EU legislation](https://thomasdelatte.com/2020/05/eu-text-generator/)
 
-[GPT-2](https://github.com/openai/gpt-2) model from OpenAI trained on 45,000 EU legislative acts (all acts from ... to ...).
+You can generate text yourself [here](https://thomasdelatte.com/gpt2).
 
-A demo is available here: [thomasdelatte.com/gpt2](https://thomasdelatte.com/gpt2).
+You can also run the code in a [Colab notebook](https://colab.research.google.com/drive/1QP-pInYzeYAP2IHJX1JhaPqY062Jd122?usp=sharing).
 
-## Use
+To the best of my knowledge, GPT-2 had not yet been used to generate texts of a legal nature. 
 
-To clone this repo
-```bash
-git clone https://github.com/thomasdelatte/gpt2-eu-acts.git
-```
+It might seem odd indeed to want to generate legal texts when legal drafting requires more rigor and method than creativity. I believe nevertheless that it is an adequate way to see if the model stays consistent inside a generated text. 
 
-## Models
-[Releases](https://github.com/thomasdelatte/gpt2-eu-acts/releases/)
+## Data
 
+EURLEX57K is a database consisting of the 57,000 European Union's Directives, Decisions and Regulations from 1990 to 2019. It is available [here](https://github.com/iliaschalkidis/lmtc-eurlex57k).
+
+To download the data, you can run the "get_data.sh" script.
 
 ## Credits
 Based on the following repos: [GPT2-Simple](https://github.com/minimaxir/gpt-2-simple) and [GPT2-CloudRun](https://github.com/minimaxir/gpt-2-cloud-run) de [minimaxir](https://github.com/minimaxir).
-
-
-## Licence
-[MIT](https://github.com/aquadzn/gpt2-eu-acts/blob/master/LICENSE)
